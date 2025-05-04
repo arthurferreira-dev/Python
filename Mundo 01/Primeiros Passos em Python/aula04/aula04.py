@@ -40,14 +40,6 @@ Traceback (most recent call last):
     print(nome+idade+peso)
 TypeError: can only concatenate str (not "int") to str
 >>> nome = input('Qual é seu nome?')
-Qual é seu nome?
->>> idade = input('Quantos anos você tem?')
-Quantos anos você tem?
->>> peso = input('Quanto você pesa?')
-Quanto você pesa?
->>> nome
-''
->>> nome = input('Qual é seu nome?')
 Qual é seu nome? Roberto
 >>> idade = input('Quantos anos você tem?') 47
 SyntaxError: invalid syntax
