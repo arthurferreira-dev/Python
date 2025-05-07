@@ -1,4 +1,7 @@
-num1 = int(input('Digite um valor: '))
-num2 = int(input('Digite um outro valor: '))
-soma = num1 + num2
-print('O resultado entre {} e {} é {}'.format(num1, num2, soma))
+algo = input('Digite algo: ')
+print('Seu tipo primitivo é {}'.format(type(algo)))
+print('Seu valor deu {} para Alfabético (sem acento)'.format(algo.isalpha()))
+print('Seu valor deu {} para Númerico'.format(algo.isnumeric()))
+print('Seu valor deu {} para Letras MAIÚSCULAS'.format(algo.isupper()))
+print('Seu valor deu {} para Letras minúsculas'.format(algo.islower()))
+print('Obrigado por digitar seu valor {} para o programa 0w0'.format(algo))
